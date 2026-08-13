@@ -5,6 +5,10 @@ build_car:
     - mkdir build
     - cd build
     - touch car.txt
-    
+
+test_car:
+  image: alphine
+  script:
+    - test -f build/car.txt
 
     
