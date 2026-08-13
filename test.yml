@@ -6,7 +6,7 @@ build_car:
     - cd build
     - touch car.txt
 
-test_car:
+test_car
   image: alphine
   script:
     - test -f build/car.txt
