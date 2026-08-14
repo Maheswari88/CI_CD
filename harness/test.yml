@@ -1,0 +1,7 @@
+build_car: 
+  image: alphine
+  script:
+    - echo "build the car"
+    - mkdir build
+    - cd build
+    - touch car.txt
